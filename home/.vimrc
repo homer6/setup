@@ -89,3 +89,6 @@ hi Comment ctermfg=lightblue
 set number
 set tabstop=4
 nmap <C-d> mzyyp`z
+
+helptags $HOME/.vim/doc
+

@@ -1,0 +1,18 @@
+Install OmniCppComplete
+-----------------------
+
+copy vim/plugins/omnicpp to ~/.vim
+:helptags $HOME/.vim/doc 
+
+
+
+Create Source Code Tags
+-----------------------
+
+ctags -f ~/.vim/wxwidgetstags -R /usr/include/wx-2.8
+
+
+Load them into vim
+-----------------------
+
+:set tags+=~/.vim/wxwidgetstags
